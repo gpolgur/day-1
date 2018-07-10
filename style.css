@@ -1,0 +1,72 @@
+/*h1{
+    		font-size: 144px;
+    		color: rgb(52,209,100);
+    	}
+
+ h5{
+    		font-family: 'Comic Sans MS';
+    		font-size: 100px;
+    		color: rgb(2200,0,30);
+    	}
+ p{
+ 	font-size: 15px;
+ 	max-width: 400 px;
+ 	color: rgb(90,100,200);
+ 	font-family: 'Impact';
+ }
+
+ div{
+ 	border: 100px dotted purple;
+ 	padding: 20px;
+ 	margin: 50px;
+ }
+
+ .chevron{
+ 	background-image: url(chevron.jpg);
+ }*/
+ html{
+ 	font-family: sans-serif;
+ 	font-size: 24px;
+ 	padding: 0px;
+ 	margin: 0px;
+ }
+
+ body{
+ 	padding: 0px;
+ 	margin: 0px;
+ }
+
+ header{
+ 		background-color: blue;
+ 		grid-column: span 3;
+ 		padding: 16px;
+ }
+
+ nav{
+ 		background-color: indigo;
+ 		padding: 16px;
+ }
+
+ main{
+ 		background-color: purple;
+ 		padding: 16px;
+ }
+
+ aside{
+ 		background-color: violet;
+ 		padding: 16px;
+ }
+
+ footer{
+ 		background-color: lightblue;
+ 		grid-column: span 3;
+ 		padding: 16px;
+ }
+
+ .container {
+ 	border: 1px solid rgba(0,0,0,0.4);
+ 	display: grid;
+ 	min-height: 100vh;
+ 	grid-template-columns: 20% auto 20%;
+ 	grid-template-rows: auto 1fr auto;
+ }
