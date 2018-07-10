@@ -40,6 +40,9 @@
  		background-color: blue;
  		grid-column: span 3;
  		padding: 16px;
+ 		font-family:'Impact';
+ 		font-size: 60px;
+ 		padding-left: 33%;
  }
 
  nav{
@@ -50,6 +53,7 @@
  main{
  		background-color: purple;
  		padding: 16px;
+ 		font-family:'Comic Sans MS';
  }
 
  aside{
@@ -61,6 +65,10 @@
  		background-color: lightblue;
  		grid-column: span 3;
  		padding: 16px;
+ }
+
+ img{
+ 	width: 100%;
  }
 
  .container {
